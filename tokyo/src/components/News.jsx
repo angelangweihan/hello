@@ -139,12 +139,6 @@ const News = () => {
                           </p>
                         </div>
                         {/* END DESCRIPTION */}
-                        <div className="news_share">
-                          <span>Share:</span>
-                          <Social />
-                          {/* END SOCIAL SHARE */}
-                        </div>
-                        {/* END NEWS SHARE */}
                       </div>
                     </div>
                   </div>
