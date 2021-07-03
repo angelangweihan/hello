@@ -5,6 +5,10 @@ const SocialShare = [
     iconName: "instagram",
     link: "https://www.instagram.com/awn0110/",
   },
+  {
+    iconName: "linkedin",
+    link: "https://www.linkedin.com/in/angela-ng-weihan/",
+  },
 ];
 const Social = () => {
   return (

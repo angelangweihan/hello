@@ -15,7 +15,7 @@ const About = () => {
     <>
       <div className="tokyo_tm_about">
         <div className="about_image">
-          <img src="assets/img/slider/1.jpg" alt="about" />
+          <img src="assets/img/slider/2.jpg" alt="about" />
         </div>
         {/* END ABOUT IMAGE */}
         <div className="description">
