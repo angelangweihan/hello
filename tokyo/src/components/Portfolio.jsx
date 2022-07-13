@@ -11,7 +11,7 @@ const Portfolio = () => {
           <div className="tokyo_tm_title">
             <div className="title_flex">
               <div className="left">
-                <span>Portfolio</span>
+                <span>Music Portfolio</span>
                 <h3>Music Compositions</h3>
               </div>
             </div>

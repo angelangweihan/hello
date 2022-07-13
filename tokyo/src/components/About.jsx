@@ -18,236 +18,169 @@ const About = () => {
           <img src="assets/img/slider/2.jpg" alt="about" />
         </div>
         {/* END ABOUT IMAGE */}
-        <div className="description">
-          <h3 className="name">Ng, Weihan Angela</h3>
-          <div className="description_inner">
-            <div className="left">
-              <p>
-                Weihan, otherwise also known as Angela, is a Computing Science and Music student at the 
-                University of Glasgow. "Aren't music and computing science really disparate subjects?" 
-                she is often asked. Certainly, she finds great joy in interdisciplinary studies. Pursuing 
-                her interests in contrasting fields has enabled her to not only see the interconnectedness 
-                of various fields our society, but also how the knowledge in each of these fields interweave 
-                to form a complete whole.
+        <section class="section-education" id="education">
+                <h3>Education & Achivements</h3>
+                <br />
+                <h4>University of Glasgow, Seoul National University</h4>
                 <br/>
+                <p>
+                  <ul>
+                    <li>MA Computing Sciences and Music</li>
+                    <li>Achieved A- and above for all 6 major modules in the first semester of the third year (GPA: 3.85/4.3, 94.5/100)</li>
+                  </ul>
+                  <br/>
+                  <b>Leadership Experiences</b>
+                  <ul>
+                    <li>2022-23 United Kingdom Singapore STEM Society Founder and President</li>
+                    <li>2019-22 Glasgow University Tech Society Advisory, Former President, Former Vice-President, Former Committee Member</li>
+                    <li>2020-22 United Kingdom Singapore Student Council Advisory, Former General Treasurer and Sponsorship Director</li>
+                    <li>2019-20 First Year Representative of the University of Glasgow Student Representative Council</li>
+                    <li>2019-20 Secretary of the Glasgow University Singapore Society</li>
+                  </ul> 
+                  <br/>
+                  <b>Awards and Prizes</b>
+                  <ul>
+                    <li>2022 POLARIS Semiconductor Innovation Festival Seoul Nat'l Univ. represent, 장려상 Prize Winner</li>
+                    <li>2021-22 Mitchell Family Travel Scholarship</li>
+                    <li>2021-22 United Kingdom Government Turning Grant</li>
+                    <li>2021-22 Singapore National Arts Council SEP Grant (Research)</li>
+                    <li>2020-21 Prize of Best Individual Assessed Work</li>
+                    <li>2019-20 Recipient of the Scottish Government Saltire Award for volunteering</li>
+                    <li>2019-20 Recipient of the University of Glasgow GoAbroad Scholarship</li>
+                    <li>2019-20 Recipient of the Singapore Global Network Certificate of Appreciation for the dedication and support to the Singaporean community during Covid-19</li>
+                  </ul>
+                </p>
+              </section>
+              <br/>
+              <hr />
+              <br/>
+              <section class="section-research" id="research">
+                <h3>Research & Publications</h3>
                 <br/>
-                Musically, Weihan is most interested in composing music that explores tonality and timbre, 
-                as well as algorithmic and stochastic music. She takes pride in being an arts-science student 
-                who finds joy in learning the science of music. She also loves to write music based on self-written 
-                poems and photographs that she has captured. These works are quiet introspections (though arguably 
-                  noisy too!) of her otherwise hectic life. Most lately, three compositions of hers were published 
-                in the University of California (Los Angeles) Music Library under the 2020 Kaleidoscope call for 
-                scores. She has also had her research in Music as Medicine published in the Stanford Journal of 
-                Science, Technology and Society by Stanford University and was also invited to present her research 
-                in the Let’s Talk About [X] academic conference by the University of Glasgow.
-                <br/>
-                <br/>
-                Her career in Technology, on the other hand, is defined by her enriching experiences with various 
-                agencies. Weihan first delved into robotics through her internship with AIS Cube (Singapore) in JC, 
-                where she had the opportunity to teach the basics of robotics to secondary school students. After 
-                her Singapore-Cambridge 'A' Levels, she joined DSO National Laboratories as a research intern, and 
-                in her 2nd year of university, Morgan Stanley as a Spring Intern. These experiences have shown her 
-                the applications of technology in the real-world.
-                <br/>
-                <br/>
-                As described by her university lecturers as being “an articulate, ambitious and self-driven student”, 
-                Weihan is also a recipient of multiple Ministry of Education (Singapore) Edusave Awards, the Defence 
-                Science and Technology Junior College Scholarship, the Radboud University Scholarship for Summer 
-                Exchange and the University of Glasgow GoAbroad Scholarship. She currently holds the positions 
-                of President of the Glasgow University Tech Society and Treasurer and Sponsorships Director of the 
-                United Kingdom Singapore Students’ Council.
-                <br/>
-                <br/>
-                With an inquisitive mind, Weihan hopes to pursue a career in research.
-              </p>
-              <div className="tokyo_tm_button">
-                <button onClick={toggleModal} className="ib-button">
-                  Read More
-                </button>
-              </div>
-              {/* END TOKYO BUTTON */}
-            </div>
-            {/* END LEFT */}
-            <div className="right">
-              <ul>
-                <li>
+                <div>
                   <p>
-                    <span>Age:</span>20
+                    Improving Deep-Learning-based Optical Music Recognition for Camera-based Inputs (2022)
+                    <ul>
+                      <li><i>(co-authored with Professor Xuan Truong Nguyen)</i></li>
+                      <li>IEEE International Conference in Artificial Intelligence Circuits and Systems</li>
+                      <li><a href="https://aicas2022.org/?page_id=188">Conference Website</a> | <a href="https://www.youtube.com/watch?v=714a6KSpiTg">Recorded Video</a></li>
+                    </ul>
+                    <br/>
+                    Explainable Artificial Intelligence for Music (2022)
+                    <ul>
+                      <li><i>(worked slongside Prof. Wen-Syan Li, Prof. Jong hwa Park, Jisoo Park, Bjørn Are Therkelsen, Axel Rooth</i></li>
+                      <li><a href="https://aml.gsds.snu.ac.kr/projectssubpages/xai-for-music">Project Website</a></li>
+                    </ul>
+                    <br/>
+                    Composing Monumentality - An Analysis of the Concerto of Professor Bernard Tan (2022)
+                    <ul>
+                      <li><i>(Research Supervisor: Jun Kai Pow, funded by the Singapore National Arts Council)</i></li>
+                      <li><a href="https://www.cssingapore.org/composing-monumentality/#:~:text=The%20Musical%20Compositions%20of%20Singapore's,a%20canon%20or%20standard%20repertory.">Project Website</a></li>
+                    </ul>
+                    <br/>
+                    Healthycation [Application for Patent] (2021)
+                    <ul>
+                      <li><i>(co-invented with Professor Hwang Junseok, Jungwon Kong and Samnieng Tan)</i></li>
+                    </ul>
+                    <br/>
+                    Literature Review on Music as Medicine: A literature review on the effectiveness of Mozart’s music on epilepsy (2020)
+                    <ul>
+                      <li><i>(co-authored with Sarah Yew Yen Yee)</i></li>
+                      <li><a href="https://ojs.stanford.edu/ojs/index.php/intersect/article/view/1794">Publication Website</a></li>
+                    </ul>
+                    <br/>
+                    Music Compositions A Prayer in Distress, Metamorphosis of Tuesday 17:00s at Mt. Sinai and The Rain published in the University of California (Los Angeles) Music Library (2020)
+                    <ul>
+                      <li><a href="https://escholarship.org/search/?q=author%3ANg%2C%20Weihan">Publication Website</a></li>
+                    </ul>
                   </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Lived In:</span>Singapore, Glasgow
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Email:</span>
-                    <a href="ng_weihan@outlook.com">ng_weihan@outlook.com</a>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>2019/21:</span>University of Glasgow
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>2021/22:</span>Seoul National University
-                  </p>
-                </li>
-              </ul>
-              {/* END UL */}
-            </div>
-            {/* END RIGHT */}
-          </div>
-          {/* END DESCRIPTION INNER */}
-        </div>
+                </div>
+              </section>
+              <br/>
+              <hr />
+              <br/>
+              <section class="section-experiences" id="experiences">
+                <h3>Experiences</h3>
+                <br/>
+                <h4>Infocomm Media Development Authority</h4>
+                <br/>
+                Digital Project Consultancy Intern <br />
+                <div class="year">
+                  <p>2022.06 - PRESENT</p>
+                </div>
+                <p>
+                  <ul>
+                    <li>Opportunities and trends: How can businesses leverage emerging technologies to thrive in the new normal</li>
+                  </ul>
+                </p>
+                <br/>
+                <h4>Seoul National University</h4>
+                <br/>
+                Undergraduate Research Assistant | Human Factors Psychology Lab <br />
+                <div class="year">
+                  <p>2022.01 - PRESENT</p>
+                </div>
+                <p>
+                  <ul>
+                    <li>Laboratory of Professor Sowon Hahn</li>
+                    <li>Areas of research: Human-Robot Interaction, Smart Aging, Human-Vehicle Interaction, Affective Modeling</li>
+                  </ul>
+                </p>
+                <br/>
+                Winter Research Intern | POLARIS LOC <br />
+                <div class="year">
+                  <p>2021.12 - 2022.02</p>
+                </div>
+                <p>
+                  <ul>
+                    <li>Research in Optical Character Recognition in the Laboratory of Professor Xuan-Truong Nguyen</li>
+                    <li>Specializing in Optical Music Recognition</li>
+                  </ul>
+                </p>
+                <br/>
+                Intern | International Student Association <br />
+                <div class="year">
+                  <p>2021.09 - 2021.12</p>
+                </div>
+                <p>
+                  <ul>
+                    <li>Assist in organizing university-wide events for international students, involving 30-50 students per event</li>
+                    <li>Worked on marketing and designing online collaterals</li>
+                  </ul>
+                </p>
+                <br/>
+                <h4>Other Experiences</h4>
+                <br/>
+                <p>
+                  <ul>
+                    <li>2021: Spring Technology Intern | Morgan Stanley (EMEA)</li>
+                    <li>2020: Business Development Intern (Part-Time) | Praxium (Singapore)</li>
+                    <li>2019: English-Mandarin Translator | BBC Scotland (Glasgow, United Kingdom)</li>
+                    <li>Research Intern | DSO National Laboratories (Singapore)</li>
+                  </ul>
+                </p>
+              </section>
+              <br/>
+              <hr />
+              <br/>
+              <section class="section-others" id="others">
+                <h3>Other Involvements</h3>
+                <br />
+                <h4>Volunteering & Societies</h4>
+                <br/>
+                <p>
+                  <ul>
+                    <li>Global Village for Hope | Operations Director</li>
+                    <li>Singapore Criminal Case Summary Repository | Web  Design Team Lead</li>
+                    <li>Composers’ Society of Singapore | EXCO Member</li>
+                    <li>Crescent Girls’ School Alumni Band</li>
+                  </ul>
+                </p>
+              </section>
+
       </div>
 
-      {/* START ABOUT POPUP BOX */}
-      <Modal
-        isOpen={isOpen}
-        onRequestClose={toggleModal}
-        contentLabel="My dialog"
-        className="mymodal"
-        overlayClassName="myoverlay"
-        closeTimeoutMS={500}
-      >
-        <div className="tokyo_tm_modalbox_about">
-          <button className="close-modal" onClick={toggleModal}>
-            <img src="assets/img/svg/cancel.svg" alt="close icon" />
-          </button>
-          {/* END POPUP CLOSE BUTTON */}
-          <div className="box-inner">
-            <div className="description_wrap scrollable">
-              <div className="my_box">
-                <div className="left">
-                  <div className="about_title">
-                    <h3>Computing Skills</h3>
-                  </div>
-                  {/* END ABOUT TITLE */}
 
-                  <div className="tokyo_progress">
-                    <div className="progress_inner" data-value="95">
-                      <span>
-                        <span className="label">Discrete Mathematics</span>
-                        <span className="number">A1</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                          <div className="bar_in" style={{width: 95 + '%'}}></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="progress_inner" data-value="80">
-                      <span>
-                        <span className="label">Algorithms & Data Structure</span>
-                        <span className="number">A2</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                        <div className="bar_in" style={{width: 90 + '%'}}></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="progress_inner" data-value="90">
-                      <span>
-                        <span className="label">Human Computer Interaction</span>
-                        <span className="number">A1</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                        <div className="bar_in" style={{width: 95 + '%'}}></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* END PROGRESS */}
-                </div>
-                {/* END LEFT */}
-
-                <div className="right">
-                  <div className="about_title">
-                    <h3>Language Skills</h3>
-                  </div>
-                  {/* END TITLE */}
-                  <div className="tokyo_progress">
-                    <div className="progress_inner" data-value="95">
-                      <span>
-                        <span className="label">English</span>
-                        <span className="number">Advanced</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                        <div className="bar_in" style={{width: 95 + '%'}}></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="progress_inner" data-value="90">
-                      <span>
-                        <span className="label">Chinese</span>
-                        <span className="number">Advanced</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                        <div className="bar_in" style={{width: 80 + '%'}}></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="progress_inner" data-value="85">
-                      <span>
-                        <span className="label">Korean</span>
-                        <span className="number">Beginner-Intermediate</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                        <div className="bar_in" style={{width: 40 + '%'}}></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* EDN TOKYO PROGRESS */}
-                </div>
-                {/* END RIGHT */}
-              </div>
-              {/* END MYBOX */}
-
-              <div className="counter">
-                <div className="about_title">
-                  <h3>Other Skills</h3>
-                </div>
-                <ul>
-                  <li>
-                    <div className="list_inner">
-                      <h3>Prototyping</h3>
-                      <span>Adobe XD, Figma</span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="list_inner">
-                      <h3>Microsoft</h3>
-                      <span>Word, Powerpoint, Excel</span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="list_inner">
-                      <h3>Analytics</h3>
-                      <span>Google Analytics</span>
-                    </div>
-                  </li>
-                </ul>
-                {/* END COUNTER CONTENT */}
-              </div>
-              {/* END COUNTER */}
-            </div>
-          </div>
-        </div>
-      </Modal>
       {/* END ABOUT POPUP BOX */}
     </>
   );
