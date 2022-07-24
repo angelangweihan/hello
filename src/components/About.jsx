@@ -14,9 +14,6 @@ const About = () => {
   return (
     <>
       <div className="tokyo_tm_about">
-        <div className="about_image">
-          <img src="assets/img/slider/2.jpg" alt="about" />
-        </div>
         {/* END ABOUT IMAGE */}
         <section class="section-education" id="education">
                 <h3>Education & Achivements</h3>
@@ -25,14 +22,14 @@ const About = () => {
                 <br/>
                 <p>
                   <ul>
-                    <li>MA Computing Sciences and Music</li>
-                    <li>Achieved A- and above for all 6 major modules in the first semester of the third year (GPA: 3.85/4.3, 94.5/100)</li>
+                    <li>MA Computing Science and Music</li>
+                    <li>Achieved 4A+, 3A & 3A- in the 3rd academic year (Percentage score: 91.30/100)</li>
                   </ul>
                   <br/>
                   <b>Leadership Experiences</b>
                   <ul>
                     <li>2022-23 United Kingdom Singapore STEM Society Founder and President</li>
-                    <li>2019-22 Glasgow University Tech Society Advisory, Former President, Former Vice-President, Former Committee Member</li>
+                    <li>2019-22 Glasgow University Tech Society Advisory, Former President, Vice-President, Committee Member</li>
                     <li>2020-22 United Kingdom Singapore Student Council Advisory, Former General Treasurer and Sponsorship Director</li>
                     <li>2019-20 First Year Representative of the University of Glasgow Student Representative Council</li>
                     <li>2019-20 Secretary of the Glasgow University Singapore Society</li>
@@ -146,6 +143,32 @@ const About = () => {
                   <ul>
                     <li>Assist in organizing university-wide events for international students, involving 30-50 students per event</li>
                     <li>Worked on marketing and designing online collaterals</li>
+                  </ul>
+                </p>
+                <br/>
+                <h4>YouthHarmony</h4>
+                <br/>
+                Chief Community Officer <br />
+                <div class="year">
+                  <p>2022.01 TO 2022.04</p>
+                </div>
+                <p>
+                  <ul>
+                    <li>No remuneration is provided for this undertaking</li>
+                    <li>Planned, developed and headed events of YouthHarmony</li>
+                    <li>Oversee the Music and External Projects Departments of close to 20 volunteers</li>
+                  </ul>
+                </p>
+                <br/>
+                Deputy Chief Executive Officer <br />
+                <div class="year">
+                  <p>2021.07 - 2021.12</p>
+                </div>
+                <p>
+                  <ul>
+                    <li>No remuneration is provided for this undertaking</li>
+                    <li>Initiated and developed an outreach framework to extend YouthHarmony's reach to schools and the community</li>
+                    <li>Handled discussions, negotiations and relations with about 10-20 important partners and sponsors</li>
                   </ul>
                 </p>
                 <br/>
