@@ -19,8 +19,9 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Ng, Weihan Angela</h3>
             <p className="job">
-              Computer Science and Music <br/>
-              University of Glasgow, Seoul National University
+              Computing Science and Music (as separate majors)<br/>
+              Senior Hons: University of Glasgow <br/>
+              Junior Hons: Seoul National University
             </p>
             {/* END JOB */}
             <Social />
