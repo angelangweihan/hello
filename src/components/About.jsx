@@ -39,7 +39,7 @@ const About = () => {
                   <ul>
                     <li>2022 POLARIS Semiconductor Innovation Festival Seoul Nat'l Univ. represent, 장려상 Prize Winner</li>
                     <li>2021-22 Mitchell Family Travel Scholarship</li>
-                    <li>2021-22 United Kingdom Government Turning Grant</li>
+                    <li>2021-22 United Kingdom Government Turing Grant</li>
                     <li>2021-22 Singapore National Arts Council SEP Grant (Research)</li>
                     <li>2020-21 Prize of Best Individual Assessed Work</li>
                     <li>2019-20 Recipient of the Scottish Government Saltire Award for volunteering</li>
