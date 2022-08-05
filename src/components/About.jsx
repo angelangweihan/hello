@@ -1,21 +1,20 @@
-import React, { useState } from "react";
-import Modal from "react-modal";
-import Brand from "./Brand";
+import React from "react";
+import NavBar from "./NavBar"
 
-Modal.setAppElement("#root");
 
 const About = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  function toggleModal() {
-    setIsOpen(!isOpen);
-  }
-
   return (
     <>
-      <div className="tokyo_tm_about">
-        {/* END ABOUT IMAGE */}
-        <section class="section-education" id="education">
+    <div className="leftpart">
+      <NavBar />
+    </div>
+    
+    <div className="rightpart">
+      <div className="rightpart_in">
+        <div className="tokyo_tm_section">
+          <div className="container">
+            <div className="tokyo_tm_about">
+              <section class="section-education" id="education">
                 <h3>Education & Achivements</h3>
                 <br />
                 <h4>University of Glasgow, Seoul National University</h4>
@@ -200,13 +199,17 @@ const About = () => {
                   </ul>
                 </p>
               </section>
-
+            </div>
+          </div>
+        </div>
       </div>
-
-
-      {/* END ABOUT POPUP BOX */}
+    </div>
+    
     </>
   );
 };
 
 export default About;
+
+
+
