@@ -21,7 +21,8 @@ const Home = () => {
             <p className="job">
               Computing Science and Music (as separate majors)<br/>
               Senior Hons: University of Glasgow <br/>
-              Junior Hons: Seoul National University
+              Junior Hons: Seoul National University <br/>
+              Predicted Degree Classification: First Class Hons
             </p>
             {/* END JOB */}
             <Social />
