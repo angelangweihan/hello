@@ -19,7 +19,8 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Ng, Weihan Angela</h3>
             <p className="job">
-              Computing Science and Music (as separate majors)<br/>
+              Master in Arts Computing Science and Music<br/>
+              Graduating in May 2023<br/>
               Senior Hons: University of Glasgow <br/>
               Junior Hons: Seoul National University <br/>
               Predicted Degree Classification: First Class Hons
